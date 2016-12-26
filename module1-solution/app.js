@@ -22,9 +22,9 @@
 
         properties: {
             0: { textColor: defaultTextColor, borderColor: defaultBorderColor, message: defaultMessage },
-            1: { textColor: defaultTextColor, borderColor: invalidColor, message: emptyMessage },
+            1: { textColor: invalidColor, borderColor: invalidColor, message: emptyMessage },
             2: { textColor: validColor, borderColor: validColor, message: validMessage },
-            3: { textColor: invalidColor, borderColor: invalidColor, message: invalidMessage },
+            3: { textColor: validColor, borderColor: validColor, message: invalidMessage },
         }
     };
 
